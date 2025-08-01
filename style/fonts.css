@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "gotham-book";
+  src: url(".../fonts/gotham/Gotham-Book.otf") format("opentype")
+}
+@font-face {
+  font-family: "gotham-bold";
+  src: url("../fonts/gotham/GOTHAM-BOLD.ttf") format("truetype")
+}
+@font-face {
+  font-family: "MinecraftFive";
+  src: url("../fonts/Minecraft-Five.otf") format("opentype");
+}
+@font-face {
+  font-family: "MinecraftTen";
+  src: url("../fonts/Minecraft-Ten.otf") format("opentype");
+}
+@font-face {
+  font-family: "Mojangles";
+  src: url("../fonts/Mojangles.ttf") format("truetype");
+}
