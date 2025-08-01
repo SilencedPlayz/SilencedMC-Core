@@ -1,0 +1,74 @@
+<head>
+  <link rel="manifest" href="./manifest.webmanifest">
+  <meta name="theme-color" content="#000000">
+  
+  <link rel="stylesheet" href="./style/mobile.css">
+  <link rel="stylesheet" href="./style/fonts.css">
+  <script src="./script/loading_screen.js" defer></script>
+  <script src="./script/tabs_selection.js" defer></script>
+  <script src="./script/global_variables.js" defer></script>
+  <script src="./script/change_theme.js" defer></script>
+  <script src="./public.js" defer></script>
+</head>
+
+<body>
+  <div id="loading-intro">
+    <div id="loading-icon"></div>
+    <div id="loading-text">Silenced MC Core</div>
+    <div id="loading-text-desc">Now entering...</div>
+  </div>
+  
+  <div id="navigator">
+    <div id="theme" onclick="changeTheme()">
+      
+    </div>
+    <div id="title-panel">
+      <div id="title-icon"></div>
+      <p id="title-text">Smc core</p>
+    </div>
+    <div id="search-panel">
+      <div id="search-icon"></div>
+    </div>
+  </div>
+  
+  <div id="tabs-panel">
+    
+    <div id="tab-1-btn" onclick="tab1()" class="tab-btn">
+      <div id="tab-1-icon" class="tab-icon"></div>
+      <div id="tab-1-text" class="tab-text">Home</div>
+    </div>
+    
+    <div id="tab-2-btn" onclick="tab2()" class="tab-btn">
+      <div id="tab-2-icon" class="tab-icon"></div>
+      <div id="tab-2-text" class="tab-text">Packs</div>
+    </div>
+    
+    <div id="tab-3-btn" onclick="tab3()" class="tab-btn">
+      <div id="tab-3-icon" class="tab-icon"></div>
+      <div id="tab-3-text" class="tab-text">Mails</div>
+    </div>
+    
+    <div id="tab-4-btn" onclick="tab4()" class="tab-btn">
+      <div id="tab-4-icon" class="tab-icon"></div>
+      <div id="tab-4-text" class="tab-text">News</div>
+    </div>
+    
+  <div id="navi-line"></div>
+  </div>
+  
+  <div id="content">
+    <div id="screen-beginner">
+      <div id="logo"></div>
+      <div id="content-text">AWW MAN!</div>
+      <div id="content-text-desc">Server is in development...</div>
+    </div>
+    
+    <div id="tab-contents">
+      <div id="tab-contents-panel">
+        <div style="background-color: red">Test</div>
+        <div style="background-color: green">Test</div>
+        <div style="background-color: blue">Test</div>
+      </div>
+    </div>
+  </div>
+</body>
