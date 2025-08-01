@@ -4,6 +4,7 @@ body {
   color: black;
   font-family: "Mojangles";
   transition: background-color 0.5s linear;
+  transform: scale(2);
 }
 
 
